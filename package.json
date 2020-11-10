@@ -1,0 +1,14 @@
+{
+  "name": "bz-h5-loading",
+  "version": "1.2.7",
+  "description": "h5中的loading加载插件",
+  "main": "loading.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "h5中的loading加载插件"
+  ],
+  "author": "Yue",
+  "license": "ISC"
+}
