@@ -135,6 +135,20 @@ BzLoading.prototype._createDom = function () {
       loadingHtml =
         '<div class="bz-loading5"></div>';
       break;
+    case 6:
+      loadingHtml =
+        '<div class="bz-loading6">' +
+        '  <div class="bz-loading6_ball ball001"></div>' +
+        '  <div class="bz-loading6_ball ball002"></div>' +
+        '  <div class="bz-loading6_ball ball003"></div>' +
+        '</div>'
+      break;
+    case 7:
+      loadingHtml =
+        '<div class="bz-loading7">' +
+        '  <div class="bz-loading7_ball"></div>' +
+        '</div>'
+      break;
     default:
       loadingHtml = '';
       break;
