@@ -1,5 +1,5 @@
 .bz-loading-wrapper {
-  min-width: 80px;
+  width: 80px;
   padding: 15px;
   background-color: #000000;
   border-radius: 12px;
@@ -8,7 +8,7 @@
   position: fixed;
   top: 35%;
   left: 50%;
-  margin-left: -45px;
+  margin-left: -55px;
 }
 
 .bz-loading01 {
@@ -385,12 +385,6 @@
   border-radius: 40px;
 }
 
-body.bz-loading_noscroll {
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-
 .bz-loading04 {
   display: -webkit-flex;
   display: flex;
@@ -465,7 +459,7 @@ body.bz-loading_noscroll {
 }
 
 .bz-loading5 {
-  width: 100px;
+  width: 80px;
   height: 12px;
   overflow: hidden;
   position: relative;
@@ -478,7 +472,7 @@ body.bz-loading_noscroll {
   position: absolute;
   top: 0;
   right: 0;
-  width: 400px;
+  width: 320px;
   height: 12px;
   background: linear-gradient(to right,
       lightgreen 0%, lightgreen 25%,
